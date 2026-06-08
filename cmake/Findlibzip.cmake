@@ -39,7 +39,7 @@ mark_as_advanced(libzip_INCLUDE_DIRS)
 
 # Linux/macos only
 find_library(libzip_LIBRARIES NAMES
-  libzip libzip.so libzip.dylib
+  libzip libzip.so libzip.dylib zip
   HINTS ${pkg_libzip_LIBRARY_DIRS})
 mark_as_advanced(libzip_LIBRARIES)
 
